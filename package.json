@@ -1,0 +1,19 @@
+{
+  "name": "outlast-head-bot",
+  "version": "2.0.0",
+  "description": "Outlast Head Bot — all-in-one, fully customisable Discord bot: welcome & goodbye, moderation, tickets, giveaways, levels, role panels and eSports announcements",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}

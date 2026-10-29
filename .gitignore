@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.sqlite
+*.sqlite3
+*.db
